@@ -40,7 +40,7 @@ stop_button = tk.Button(app, text="___Stop___", command=stop_script)
 stop_button.pack()
 
 # Bilgisayar adı kontrolü
-if computer_name not in ("DESKTOP-R904F1U", "DESKTOP-R933"):
+if computer_name not in ("DESKTOP-1", "DESKTOP-2"):
     start_button.config(state=tk.DISABLED)
     stop_button.config(state=tk.DISABLED)
     
